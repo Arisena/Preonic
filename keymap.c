@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |      |      |      |      |      |      |      |      |   4  |   5  |   6  |  +   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |      |      |      |      |TO(0) |NMLock|NMLock|   1  |   2  |   3  |Enter |
+ * | Mod  | Mod  | Mod  | Mod  |      |TO(0) |NMLock|NMLock|   1  |   2  |   3  |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Left | Down |  Up  |Right |      |    Space    |NMLock|   0  |   0  |   .  |Enter |
  * `-----------------------------------------------------------------------------------'
@@ -98,7 +98,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 			KC_ESC , RGB_TOG, RGB_VAI, KC_NO  , KC_NO  , KC_NO, KC_NO , KC_NO , KC_PSLS, KC_PAST, KC_PMNS, KC_BSPC,
 			KC_TAB , KC_NO  , RGB_VAD, KC_NO  , KC_NO  , KC_NO, KC_NO , KC_NO , KC_P7  , KC_P8  , KC_P9  , KC_PPLS,
 			KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO, KC_NO , KC_NO , KC_P4  , KC_P5  , KC_P6  , KC_PPLS,
-			KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_TRNS, TO(0), KC_NUM, KC_NUM, KC_P1  , KC_P2  , KC_P3  , KC_PENT,
+			KC_LGUI, KC_LGUI, KC_LGUI, KC_LGUI, KC_TRNS, TO(0), KC_NUM, KC_NUM, KC_P1  , KC_P2  , KC_P3  , KC_PENT,
 			KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, KC_NO  ,    KC_SPC    , KC_NUM, KC_P0  , KC_P0  , KC_PDOT, KC_PENT)
 };
 
