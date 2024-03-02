@@ -72,15 +72,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |      |      |      |TO(4) |      |      |      |      |      |      |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |Lower |    Space    |Raise | Left | Down |  Up  | Right|
+ * |      |      |      | SCRL |Lower |    Space    |Raise | Left | Down |  Up  | Right|
  * `-----------------------------------------------------------------------------------'
  */
 	[3] = LAYOUT_preonic_1x2uC(
-			KC_F1, KC_F2  , KC_F3  , KC_F4, KC_F5  , KC_F6, KC_F7, KC_F8  , KC_F9  , KC_F10 , KC_F11, KC_F12,
-			KC_NO, QK_BOOT, DB_TOGG, AU_ON, AU_OFF , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
-			KC_NO, KC_NO  , KC_NO  , KC_NO, KC_NO  , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
-			KC_NO, KC_NO  , KC_NO  , KC_NO, TO(4)  , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
-			KC_NO, KC_NO  , KC_NO  , KC_NO, KC_TRNS,   KC_SPC    , KC_TRNS, KC_LEFT, KC_DOWN, KC_UP , KC_RGHT),
+			KC_F1, KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6, KC_F7, KC_F8  , KC_F9  , KC_F10 , KC_F11, KC_F12,
+			KC_NO, QK_BOOT, DB_TOGG, AU_ON  , AU_OFF , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
+			KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
+			KC_NO, KC_NO  , KC_NO  , KC_NO  , TO(4)  , KC_NO, KC_NO, KC_NO  , KC_NO  , KC_NO  , KC_NO , KC_NO,
+			KC_NO, KC_NO  , KC_NO  , KC_SCRL, KC_TRNS,   KC_SPC    , KC_TRNS, KC_LEFT, KC_DOWN, KC_UP , KC_RGHT),
 
 /* Layer 4 (Numpad)
  * ,-----------------------------------------------------------------------------------.

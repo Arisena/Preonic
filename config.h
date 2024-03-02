@@ -19,15 +19,16 @@
 #ifdef AUDIO_ENABLE
   #define STARTUP_SONG SONG(PREONIC_SOUND)
 
-  #define DEFAULT_LAYER_SONGS \
-	  { SONG(QWERTY_SOUND)}
-//  #define AUDIO_CLICKY
-//  #define AUDIO_CLICKY_FREQ_RANDOMNESS 1.0f
+/*  #define DEFAULT_LAYER_SONGS \
+ *	  { SONG(QWERTY_SOUND)}
+ *  #define AUDIO_CLICKY
+ *  #define AUDIO_CLICKY_FREQ_RANDOMNESS 1.0f
+*/
 #endif
 
-#define MUSIC_MASK (keycode != KC_NO)
+//#define MUSIC_MASK (keycode != KC_NO)
 
-#define MIDI_BASIC
+//#define MIDI_BASIC
 //#define MUSIC_MASK (keycode != KC_NO)
 
 /* enable advanced MIDI features:
